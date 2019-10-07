@@ -1,7 +1,7 @@
 # go_tour
+This repository contains simple guide to ```go``` programming language.
 
-
-### Hello World
+#### Hello World
 
 Traditionally the first program you write in any programming language is called a “Hello World” program – a program that simply outputs Hello World to your terminal.
 
@@ -23,17 +23,17 @@ fmt.Println("Hello World")
 ```
 - This statement is made of three components. First we access another function inside of the fmt package called Println (that's the fmt.Println piece, Println means Print Line). Then we create a new string that contains Hello World and invoke (also known as call or execute) that function with the string as the first and only argument.
 
-### Variables:
+#### Variables:
 
  - Names must start with a letter and may contain letters, numbers or the _ (underscore) symbol.
  
  - A special way to represent multiple words in a variable name known as lower camel case (also know as mixed case, bumpy caps, camel back or hump back). The first letter of the first word is lowercase, the first letter of the subsequent words is uppercase and all the other letters are lowercase.
  
- #### Scope
+ ##### Scope
  
  The range of places where you are allowed to use x is called the scope of the variable. 
  
- ### Constant:
+ ##### Constant:
  
  Constants are basically variables whose values cannot be changed later. They are created in the same way you create variables but instead of using the var keyword we use the ```const``` keyword.
  
